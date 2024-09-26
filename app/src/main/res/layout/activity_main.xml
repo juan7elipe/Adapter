@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/txtAluno"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Nome do Aluno:"
+      android:textSize="18sp" />
+
+  <EditText
+      android:id="@+id/edAluno"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:hint="Digite o nome do aluno" />
+
+  <TextView
+      android:id="@+id/txtEscolha"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Área de Escolha:"
+      android:textSize="18sp" />
+
+  <EditText
+      android:id="@+id/edEscolha"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:hint="Digite a área de escolha" />
+
+  <Button
+      android:id="@+id/btnInserir"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Inserir" />
+
+  <ListView
+      android:id="@+id/listViewAlunos"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1" />
+
+  <TextView
+      android:id="@+id/txtResultado"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20sp" />
+
+  <Button
+      android:id="@+id/btnZerar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Zerar" />
+
+</LinearLayout>
